@@ -9,3 +9,9 @@ export type RegDataResponse = {
   error: boolean;
   errorText: string;
 };
+
+export type Message = {
+  type: string;
+  data: string;
+  id: number;
+};
