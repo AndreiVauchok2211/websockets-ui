@@ -1,8 +1,8 @@
-import { registration } from 'src/actions/registration';
-import { MemoryDB } from 'src/db';
-import { parserReq } from 'src/services/parser';
-import { EnumWSMessage } from 'src/types/constants';
-import { WebSocketID } from 'src/types/entity';
+import { registration } from '../actions/registration';
+import { MemoryDB } from '../db';
+import { parserReq } from '../services/parser';
+import { EnumWSMessage } from '../types/constants';
+import { WebSocketID } from '../types/entity';
 
 export const DB = new MemoryDB();
 

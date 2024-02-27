@@ -1,7 +1,7 @@
-import { EnumWSMessage } from 'src/types/constants';
-import { DB } from 'src/ws_server/serverStart';
-import { RegDataRequest } from 'src/types/data';
-import { WebSocketID } from 'src/types/entity';
+import { EnumWSMessage } from '../types/constants';
+import { DB } from '../ws_server/serverStart';
+import { RegDataRequest } from '../types/data';
+import { WebSocketID } from '../types/entity';
 
 export function registration(ws: WebSocketID, player: RegDataRequest) {
   const playerDB = DB.addPlayerDB(player);
